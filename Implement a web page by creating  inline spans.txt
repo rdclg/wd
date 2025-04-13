@@ -1,0 +1,25 @@
+Implement a web page by creating inline spans and adjusting space between lines
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Inline Spans & Line Spacing</title>
+	<style>
+	    .line-spacing{ line-height: 2.9; }
+	    
+	</style>
+</head>
+<body>
+	<h1>Inline Spans & Line Spacing</h1>
+
+	<pclass="line-spacing">
+	     This is a paragraph with <span class="highlight">highlighted</span> text and <span class="hig
+hlight">increased line spacing</span>.
+	</p>
+
+	<p>
+	    Use <span class="highlight">inline spans</span> to style parts of text, like <span class="highlight">this</span> example.
+	</p>
+</body>
+</html>
