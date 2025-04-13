@@ -1,0 +1,121 @@
+1) use of basic and advanced tags,lists,and background
+
+Aim:- Understanding the Elements, Tags and Basic Structure of HTML files.
+
+<!doctype html>
+<head>
+   <title>nabiha sayed</title>
+</head>
+<body bgcolor="pink" >
+<h1> welcome to our program </h1>
+<h2> The html tag </h2>
+<h5> This are tags </h5>
+<p> Hello this is first program </p>
+</body>
+</html>
+
+2)Aim:- Design a web page using basics and Advanced text formatting tags.
+<!doctype html>
+<html>
+<head>
+  <title> Text Formatting</title>
+</head>
+<body bgcolor="yellow">
+<h1> Text Formatting </h1>
+
+<strong> This is use for bold text </strong><br><br>
+<u> This is for underline </u><br><br>
+<em> This is for italic text </em><br><br>
+<del> This is for delete or strike something. </del><br><br>
+<ins> This is for inserted text </ins>
+</body>
+</html>
+
+3) Design a web page using ordered, unordered list and description list. 
+<!doctype html>
+<head>
+  <title>List Types in HTML </title>
+</head>
+<body>
+<h1> Different type of list </h1>
+ <h2>Ordered List </h2>
+   <ol>
+     <li>football</li>
+     <li>Basketball</li>
+     <li>cricket</li>
+     <li>badminton</li>
+  </ol>
+ <h2>Unordered list</h2>
+  <ul type="square">
+    <li>Pizza</li>
+    <li>Burger</li>
+    <li>Pepsi</li>
+    <li>Coca Cola</li>
+  </ul>
+</body>
+</html>
+
+Aim:- Design a web page by choosing Background and Foreground Colours.
+<!doctype html>
+<html>
+<head>
+ <title>color effct </title>
+</head>
+<body style="background-color:yellow; color:blue;">
+ <h1> This is use for backgroud color and text </h1>
+</body>
+</html>
+
+Aim:- Design a web page using Nested list.
+
+<!doctype html>
+<head>
+  <title> Nested List and Speacial Character </title>
+</head>
+<body bgcolor="skyblue">
+<h1> Nested with Example and speacial character </h1>
+<ul> 
+  <li>Friuts
+     <ul>
+       <li>pineapple</li>
+       <li>Mango</li>
+       <li>Orange</li>
+     </ul>
+  </li>
+  <li>Vegatable
+     <ul>
+       <li>carrot</li>
+       <li>Brocali</li>
+       <li>spinach</li>
+     </ul>
+  </li>
+</ul>
+</body>
+</html>
+
+Aim:- Write an HTML code to display your CV on a web page.
+
+<!doctype html>
+<head>
+  <title></title>
+</head>
+<body style=background-color:pink;>
+<h1> nabiha </h1>
+<p>Email:nabihasayed@gmail.com</p>
+<p>Phone:9819131204</p>
+<p>Location:khar(West)</p>
+
+<h2>Objective </h2>
+<p> Passinote Full Stack developer For lookin new opportunity.</p>
+
+<h2>Education </h2>
+<p> Bachelor of science in Information Technology , Rd National College , 2027 </p>
+
+<h2>Hobbies </h2>
+<p> baking and creativity </p>
+
+</body>
+</html>
+
+
+
