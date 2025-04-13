@@ -1,0 +1,20 @@
+Implement a web page by inserting a image and controlling the image size and padding
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Image Example</title>
+	<style>
+	   img {
+		width: 300px;
+		padding: 20px;
+
+	     }
+	</style>
+</head>
+<body>
+
+   <img src="nat.jpg" alt="nat Image">
+</body>
+</html>
+
