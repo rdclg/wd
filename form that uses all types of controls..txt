@@ -1,0 +1,48 @@
+Aim:- Design a web page with a form that uses all types of controls.
+
+<html>
+<html lang="en">
+<head>
+    
+    <title>Form Example</title>
+</head>
+<body>
+    <form action="#">
+        <label for="text">Text:</label><br>
+        <input type="text" id="text" name="text"><br><br>
+
+        <label for="password">Password:</label><br><br>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="email">Email:</label><br><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="number">Number:</label><br><br>
+        <input type="number" id="number" name="number"><br><br>
+
+        <label for="date">Date:</label><br><br>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="checkbox">Subscribe:</label>
+        <input type="checkbox" id="checkbox" name="subscribe"><br><br>
+
+        <label for="radio">Gender:</label><br><br>
+        <input type="radio" id="male" name="gender" value="male"><label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female"><label for="female">Female</label><br><br>
+
+        <label for="select">Country:</label><br><br>
+        <select id="select" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select><br>
+
+        <label for="textarea">Message:</label><br><br>
+        <textarea id="textarea" name="message"></textarea><br><br>
+
+        <label for="file">Upload File:</label><br><br>
+        <input type="file" id="file" name="file"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
