@@ -1,0 +1,24 @@
+Design a table by merging the table cells.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Merged Table Cells</title>
+</head>
+<body>
+	<table border="1">
+	  <tr>
+		<th colspan="2">Header 1</th>
+		<th rowspan="2">Header 2</th>
+	  </tr>
+	  <tr>
+		<td>Data 1</td>
+		<td>Data 2</td>
+	  </tr>
+	  <tr>
+		<td colspan="2">Merged Data,/td>
+		<td>Data 3</td>
+	  </tr>
+	</table>
+</body>
+</html>
