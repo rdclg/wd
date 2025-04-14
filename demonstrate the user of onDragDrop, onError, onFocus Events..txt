@@ -1,0 +1,20 @@
+Using Java Script, demonstrate the user of onDragDrop, onError, onFocus Events. 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Handling</title>
+</head>
+<body>
+
+    <img id="dragImage" src="nat.jpg" width="100" height="100" 
+         ondragstart="alert('Image drag started!')" 
+         ondrop="alert('Image dropped!')" 
+         ondragover="event.preventDefault()">
+
+    <input type="text" onfocus="alert('Input field focused!')">
+
+    <img src="invalid.jpg" onerror="alert('Image load failed!')">
+
+</body>
+</html>
