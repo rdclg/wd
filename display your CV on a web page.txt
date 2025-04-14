@@ -1,0 +1,28 @@
+:- Write an HTML code to display your CV on a web page.
+
+<!doctype html>
+<head>
+  <title></title>
+</head>
+<body style=background-color:pink;>
+<h1>nabiha sayed</h1>
+<p>Email:nabihasayed@gmail.com</p>
+<p>Phone:9819131204</p>
+<p>Location:khar(West)</p>
+
+<h2>Objective </h2>
+<p> Passinote Full Stack developer For lookin new opportunity.</p>
+
+<h2>Education </h2>
+<p> Bachelor of science in Information Technology , Rd National College , 2027 </p>
+
+<h2>Hobbies </h2>
+<p> baking and creativity </p>
+
+</body>
+</html>
+
+Output:
+ 
+
+
