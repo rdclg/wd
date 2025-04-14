@@ -1,0 +1,15 @@
+Aim:- Design a web page by placing a Video Clip on a Web Page
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Video Page</title>
+<head>
+<body>
+<h2>Watch this video</h2>
+<video width="800" controls>
+<source src="Nature.mp4" type="video/mp4">
+Your Browser does not support the video tag.
+</video>
+</body>
+</html>
