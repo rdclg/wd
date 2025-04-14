@@ -1,0 +1,24 @@
+:- Using JavaScript, design a web page to accept a number from the user and print its Factorial.
+
+<!DOCTYPE html>
+<html lang>
+<head>
+<title>Factorial Calculator</title>
+</head>
+<body>
+<input type="number" id="num" placeholder="Enter a number">
+<button onclick="factorial()">Calculate</button>
+<p id="result"></p>
+
+<script>
+function factorial() {
+            let n = document.getElementById('num').value;
+            let result = 1;
+            for (let i = 1; i <= n; i++) {
+                result *= i;
+            }
+document.getElementById('result').innerText = `Factorial: ${result}`;
+}
+</script>
+</body>
+</html>
