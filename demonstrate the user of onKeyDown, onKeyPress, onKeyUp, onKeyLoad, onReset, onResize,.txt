@@ -1,0 +1,24 @@
+Using Java Script, demonstrate the user of onKeyDown, onKeyPress, onKeyUp, onKeyLoad, onReset, onResize, onSelect, onSubmit, onUnload Event.
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Event Handling</title>
+</head>
+<body onload="alert('Page Loaded!')" onunload="alert('Page Unloaded!')">
+
+ <form onreset="alert('Form Reset!')" onsubmit="alert('Form Submitted!')">
+
+<input type="text" onkeydown="alert('Key down!')" onkeypress="alert('Key pressed!')" onkeyup="alert('Key up!')">
+
+<input type="reset" value="Reset">
+
+<input type="submit" value="Submit">
+</form>
+
+ <div onresize="alert('Window resized!')" style="width:100%; height:100px; background-color:lightgray;"> Resize the window.</div>
+
+    <textarea onselect="alert('Text selected!')"></textarea>
+
+</body>
+</html>
