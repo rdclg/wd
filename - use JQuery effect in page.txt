@@ -1,0 +1,31 @@
+:- use JQuery effect in page
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Effects Example</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	<style>
+	    #box {
+		width:200px;
+		height:200px;
+		background-color: #3498db;
+		margin-top: 50px;
+	    }
+	</style>
+</head>
+<body>
+
+<button id="toggleButton">Toggle Box</button>
+<div id="box"></div>
+	
+<script>
+	$(document).ready(function() {
+		$("#toggleButton").click(function () {
+			$("#box").fadeToggle(1000);
+		    });
+		});
+	</script>
+</body>
+</html>
