@@ -1,0 +1,15 @@
+Creating hyperlink to an E-mail Address.
+
+<!doctype html>
+<head>
+<title>Email Link Example</title>
+</head>
+<body>
+  <h1>Contact us</h1>
+  <p>If you have any questions,Feel free to reach out to us via email:</p>
+  <p><a href="mailto:contact@example.com">Send us an email</a></p>
+
+<p>Alternatively,you can email us directly at: <strong>contact@example.com</strong></p>
+</body>
+</html>
+
