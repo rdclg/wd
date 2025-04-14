@@ -1,0 +1,28 @@
+Creating JSON
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Json in html</title>
+</head>
+<body>
+<h1>Displaying JSON Data</h1>
+<pre id="jsonDisplay"></pre>
+
+<script>
+	var person = {
+	"name": "GANESH MODAK",
+	"age": 18,
+	"emal": "ganesh@gmail.com",
+	"hobbies": ["buying","playing","coding"]
+	};
+
+	var jsonString = JSON.stringify(person, null, 2);
+	document.getElementById("jsonDisplay").textContent = jsonString;
+
+	var parsedPerson = JSON.parse(jsonString);
+	console.log(parsedPerson);
+</script>
+</body>
+</html>
+
