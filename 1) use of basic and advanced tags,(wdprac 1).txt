@@ -14,23 +14,6 @@
 </body>
 </html>
 
-2)Aim:- Design a web page using basics and Advanced text formatting tags.
-<!doctype html>
-<html>
-<head>
-  <title> Text Formatting</title>
-</head>
-<body bgcolor="yellow">
-<h1> Text Formatting </h1>
-
-<strong> This is use for bold text </strong><br><br>
-<u> This is for underline </u><br><br>
-<em> This is for italic text </em><br><br>
-<del> This is for delete or strike something. </del><br><br>
-<ins> This is for inserted text </ins>
-</body>
-</html>
-
 3) Design a web page using ordered, unordered list and description list. 
 <!doctype html>
 <head>
@@ -55,43 +38,6 @@
 </body>
 </html>
 
-Aim:- Design a web page by choosing Background and Foreground Colours.
-<!doctype html>
-<html>
-<head>
- <title>color effct </title>
-</head>
-<body style="background-color:yellow; color:blue;">
- <h1> This is use for backgroud color and text </h1>
-</body>
-</html>
-
-Aim:- Design a web page using Nested list.
-
-<!doctype html>
-<head>
-  <title> Nested List and Speacial Character </title>
-</head>
-<body bgcolor="skyblue">
-<h1> Nested with Example and speacial character </h1>
-<ul> 
-  <li>Friuts
-     <ul>
-       <li>pineapple</li>
-       <li>Mango</li>
-       <li>Orange</li>
-     </ul>
-  </li>
-  <li>Vegatable
-     <ul>
-       <li>carrot</li>
-       <li>Brocali</li>
-       <li>spinach</li>
-     </ul>
-  </li>
-</ul>
-</body>
-</html>
 
 Aim:- Write an HTML code to display your CV on a web page.
 
