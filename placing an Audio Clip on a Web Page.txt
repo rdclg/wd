@@ -1,0 +1,15 @@
+Design a web page by placing an Audio Clip on a Web Page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Audio Page</title>
+<head>
+<body>
+<h2>Listen this audio</h2>
+<audio width="800" controls>
+<source src="Nature.mp3" type="audio/mp3">
+Your Browser does not support the audio tag.
+</audio>
+</body>
+</html>
