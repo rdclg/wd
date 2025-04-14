@@ -1,0 +1,36 @@
+:- Design a web page with links to different pages and allow navigation between two pages.
+Home.html
+<!doctype html>
+<head>
+  <title>A Main Page </title>
+</head>
+<body>
+ 	<h1>Welcome to the main page </h1>
+	<p>This is the home page </p>
+	
+	<nav>
+	 <ul>
+		<li><a href="About.html">About us</a></li>
+	</ul>
+  	</nav>
+</body>
+</html>
+About.html
+<!doctype html>
+<head>
+  <title>The Second Page</title>
+</head>
+<body>
+<form>
+  Name: <input type="text" ><br><br>
+  Email: <input type="text" ><br><br>
+  <input type="submit" value="submit">
+
+<nav>
+	 <ul>
+		<li><a href="home.html">Home</a></li>
+	</ul>
+  	</nav>
+</form>
+</body>
+</html>
